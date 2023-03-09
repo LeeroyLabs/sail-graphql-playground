@@ -1,0 +1,20 @@
+{
+    "name": "leeroy/sail-graphql-playground",
+    "description": "GraphQL Playground for SailCMS",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Leeroy\\GraphQLPlayground\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marc Giroux",
+            "email": "marc@leeroy.ca"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    }
+}
