@@ -13,7 +13,14 @@ class Container extends AppContainer
     public function info(): ContainerInformation
     {
         Engine::addTemplatePath(__DIR__ . '/templates');
-        return new ContainerInformation('GraphQLPlayground', 'GraphQL Playground UI', 1.0, '1.0.0');
+        return new ContainerInformation(
+            'GraphQLPlayground', 
+            'GraphQL Playground UI', 
+            1.0, 
+            '1.0.0',
+            'LeeroyLabs', 
+            'https://github.com/orgs/LeeroyLabs/repositories'
+        );
     }
 
     public function routes(): void
