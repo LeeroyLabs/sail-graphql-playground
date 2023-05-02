@@ -17,7 +17,7 @@ class Container extends AppContainer
             'GraphQLPlayground', 
             'GraphQL Playground UI', 
             1.0, 
-            '1.0.0',
+            '1.0.2',
             'LeeroyLabs', 
             'https://github.com/orgs/LeeroyLabs/repositories'
         );
